@@ -1,8 +1,8 @@
 {
-  "name": "easy-bin",
+  "name": "{{projectName}}",
   "version": "0.0.1",
   "bin": {
-    "easy-bin": "bin/index.js"
+    "{{command}}": "bin/{{projectName}}.js"
   },
   "main": "index.js",
   "description": "",

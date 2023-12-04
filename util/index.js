@@ -1,6 +1,7 @@
 function help() {
   let pkg = require('../package.json');
-  console.log([`Usage`, `  ${pkg} --version, -V`].join('\n'));
+  let command = Object.keys(pkg.bin)[0];
+  console.log([`Usage`, `  ${command} --version, -V`].join('\n'));
 }
 
 module.exports = {
