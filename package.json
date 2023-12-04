@@ -1,0 +1,15 @@
+{
+  "name": "easy-bin",
+  "version": "0.0.1",
+  "bin": {
+    "easy-bin": "bin/index.js"
+  },
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
